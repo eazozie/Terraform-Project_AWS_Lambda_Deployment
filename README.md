@@ -50,7 +50,11 @@ data "archive_file" "zip" {
 
 Lambda_function.zip - Zip file created automatically
 
+### Step 3 - Define Terraform resources (IAM Role + Lambda)
+Already defined in the source code 'variables.tf', 'main.tf'
 
+
+### Step 4 - Run Terraform Init, Plan, and Apply
  
 Terraform init
 
@@ -83,10 +87,8 @@ Terraform apply
 
 Terraform apply - Successful
 
-<img width="975" height="90" alt="image" src="https://github.com/user-attachments/assets/6506662e-f183-4590-9d11-fa24cfebe087" />
 
-
-Checking the console to verify the Lambda function and IAM role created  
+### Checking the console to verify the Lambda function and IAM role created  
 
 
 <img width="975" height="90" alt="image" src="https://github.com/user-attachments/assets/fa3dc7e7-46b4-484a-ab70-3a80edc92f87" />
