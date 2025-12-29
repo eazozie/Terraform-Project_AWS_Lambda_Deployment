@@ -1,10 +1,7 @@
-# hiding some folder
-
-**/.terraform/
-
+# hiding some folders/files for security
 
 # Local .terraform directories
-.terraform/
+**/.terraform/
 
 # .tfstate files and backups
 *.tfstate
